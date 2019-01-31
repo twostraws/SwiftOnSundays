@@ -24,8 +24,7 @@ class FriendDataSource: NSObject, UITableViewDataSource {
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = .iso8601
 
-        let url = "https://www.hackingwithswift.com/samples/friendface.json"
-        decoder.decode([Friend].self, fromURL: url) { friends in
+        decoder.decode([Friend].self, fromURL: urlString) { friends in
             self.friends = friends
             self.filteredFriends = friends
             self.dataChanged?()
