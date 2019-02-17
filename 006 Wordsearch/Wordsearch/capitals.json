@@ -1,0 +1,82 @@
+[
+    {
+        "text": "London",
+        "clue": "England"
+    },
+    {
+        "text": "Edinburgh",
+        "clue": "Scotland"
+    },
+    {
+        "text": "Belfast",
+        "clue": "Northern Ireland"
+    },
+    {
+        "text": "Cardiff",
+        "clue": "Wales"
+    },
+    {
+        "text": "Paris",
+        "clue": "France"
+    },
+    {
+        "text": "Rome",
+        "clue": "Italy"
+    },
+    {
+        "text": "Berlin",
+        "clue": "Germany"
+    },
+    {
+        "text": "Madrid",
+        "clue": "Spain"
+    },
+    {
+        "text": "Budapest",
+        "clue": "Hungary"
+    },
+    {
+        "text": "Oslo",
+        "clue": "Norway"
+    },
+    {
+        "text": "Copenhagen",
+        "clue": "Denmark"
+    },
+    {
+        "text": "Stockholm",
+        "clue": "Sweden"
+    },
+    {
+        "text": "Athens",
+        "clue": "Greece"
+    },
+    {
+        "text": "Riga",
+        "clue": "Latvia"
+    },
+    {
+        "text": "Tallinn",
+        "clue": "Estonia"
+    },
+    {
+        "text": "Dublin",
+        "clue": "Ireland"
+    },
+    {
+        "text": "Lisbon",
+        "clue": "Portugal"
+    },
+    {
+        "text": "Belgrade",
+        "clue": "Serbia"
+    },
+    {
+        "text": "Warsaw",
+        "clue": "Poland"
+    },
+    {
+        "text": "Vienna",
+        "clue": "Austria"
+    }
+]
