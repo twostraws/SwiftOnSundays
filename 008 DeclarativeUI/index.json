@@ -1,0 +1,83 @@
+{
+	"screens": [
+		{
+			"id": "home",
+			"title": "Home",
+			"type": "table",
+			"rightButton": {
+				"title": "About",
+				"actionType": "alert",
+				"action": {
+					"title": "Credits",
+					"message": "hackingwithswift.com"
+				}
+			},
+			"rows": [
+				{
+					"title": "First row",
+					"actionType": "alert",
+					"action": {
+						"title": "This is the first row",
+						"message": "Oh yes it is!"
+					}
+				},
+				{
+					"title": "Show an awesome site",
+					"actionType": "showWebsite",
+					"action": {
+						"url": "https://www.hackingwithswift.com"
+					}
+				},
+				{
+					"title": "Third row"
+				},
+				{
+					"title": "Show second screen",
+					"actionType": "showScreen",
+					"action": {
+						"id": "second"
+					}
+				},
+				{
+					"title": "Share something",
+					"actionType": "share",
+					"action": {
+						"text": "Hello, world!"
+					}
+				},
+				{
+					"title": "Play movie",
+					"actionType": "playMovie",
+					"action": {
+						"url": "https://player.vimeo.com/external/321068858.hd.mp4?s=e2ae1cc4b993c474d1830c8dfbd4aa8335c8b562&profile_id=174"
+					}
+				}
+			]
+		},
+		{
+			"id": "second",
+			"title": "Second Screen",
+			"type": "table",
+			"rows": [
+				{
+					"title": "Second screen first row",
+					"actionType": "alert",
+					"action": {
+						"title": "This is the first row",
+						"message": "Oh yes it is!"
+					}
+				},
+				{
+					"title": "Show an awesome site",
+					"actionType": "showWebsite",
+					"action": {
+						"url": "https://www.hackingwithswift.com"
+					}
+				},
+				{
+					"title": "Third row"
+				}
+			]
+		}
+	]
+}
