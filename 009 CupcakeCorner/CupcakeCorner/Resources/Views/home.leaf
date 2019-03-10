@@ -1,0 +1,31 @@
+<html>
+<body>
+<h1>Cupcake Corner</h1>
+<p>Welcome to Cupcake Corner!</p>
+
+<ul>
+	#for(cupcake in cupcakes) {
+		<li>#(cupcake.name)</li>
+	}
+</ul>
+
+<h2>Orders</h2>
+<ul>
+	#for(order in orders) {
+		<li>Order #(order.cakeName) for #(order.buyerName) at #date(order.date, "HH:mm, dd-MM-yyyy")</li>
+	}
+</ul>
+
+<h2>Add new cupcake</h2>
+<form method="post" action="/add">
+<p>Name: <input type="text" name="name" /></p>
+<p>Description: <input type="text" name="description" /></p>
+<p>Price: <input type="number" name="price" /></p>
+<button type="submit">Add</button>
+</form>
+
+
+
+
+</body>
+</html>

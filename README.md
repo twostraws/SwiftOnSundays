@@ -17,6 +17,7 @@ If you haven’t already watched the episodes, [you should subscribe to Paul’s
 
 This GitHub repository stores the completed code we built each week, so you can try it out, or compare your version against the originals. Unless otherwise noted, all code in this repository is free to use however you want, commercially or otherwise, with no need to provide any credit to Paul.
 
+**Important note:** Projects that use Vapor do *not* ship with their Vapor dependencies or Xcode project – you should run `vapor build` and/or `vapor xcode` locally to get the latest versions of the Vapor dependencies.
 
 
 ## Credits
