@@ -44,7 +44,7 @@ class FriendViewController: UITableViewController, Storyboarded {
             }
         }
 
-        selectedTimeZone = timeZones.index(of: friend.timeZone) ?? 0
+        selectedTimeZone = timeZones.firstIndex(of: friend.timeZone) ?? 0
     }
 
     override func viewWillDisappear(_ animated: Bool) {
