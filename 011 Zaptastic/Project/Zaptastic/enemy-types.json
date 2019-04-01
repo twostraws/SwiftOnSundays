@@ -1,0 +1,20 @@
+[
+	{
+		"name": "enemy1",
+		"shields": 1,
+		"speed": 600,
+		"powerUpChance": 10,
+	},
+	{
+		"name": "enemy2",
+		"shields": 3,
+		"speed": 400,
+		"powerUpChance": 5,
+	},
+	{
+		"name": "enemy3",
+		"shields": 5,
+		"speed": 200,
+		"powerUpChance": 2,
+	}
+]
