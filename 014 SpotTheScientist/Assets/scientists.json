@@ -1,0 +1,74 @@
+{
+	"anning": {
+		"name": "Mary Anning",
+		"dates": "1799-1847",
+		"field": "Palaeontology",
+		"bio": "Mary Anning (21 May 1799 – 9 March 1847) was an English fossil collector, dealer, and palaeontologist who became known around the world for important finds she made in Jurassic marine fossil beds in the cliffs along the English Channel at Lyme Regis in the county of Dorset in Southwest England.",
+		"country": "uk",
+		"source": "https://en.wikipedia.org/wiki/Mary_Anning"
+	},
+	"curie": {
+		"name": "Marie Curie",
+		"dates": "1867-1934",
+		"field": "Physics",
+		"bio": "Marie Skłodowska Curie (born Maria Salomea Skłodowska; 7 November 1867 – 4 July 1934) was a Polish and naturalized-French physicist and chemist who conducted pioneering research on radioactivity. She was the first woman to win a Nobel Prize, the first person and only woman to win twice, and the only person to win a Nobel Prize in two different sciences.",
+		"country": "poland",
+		"source": "https://en.wikipedia.org/wiki/Marie_Curie"
+	},
+	"darwin": {
+		"name": "Charles Darwin",
+		"dates": "1809-1882",
+		"field": "Biology",
+		"bio": "Charles Robert Darwin, FRS FRGS FLS FZS (12 February 1809 – 19 April 1882) was an English naturalist, geologist and biologist, best known for his contributions to the science of evolution. His proposition that all species of life have descended over time from common ancestors is now widely accepted, and considered a foundational concept in science.",
+		"country": "uk",
+		"source": "https://en.wikipedia.org/wiki/Charles_Darwin"
+	},
+	"einstein": {
+		"name": "Albert Einstein",
+		"dates": "1879-1955",
+		"field": "Physics",
+		"bio": "Albert Einstein (14 March 1879 – 18 April 1955) was a German-born theoretical physicist who developed the theory of relativity, one of the two pillars of modern physics (alongside quantum mechanics). His work is also known for its influence on the philosophy of science.",
+		"country": "germany",
+		"source": "https://en.wikipedia.org/wiki/Isaac_Newton"
+	},
+	"galileo": {
+		"name": "Galileo Galilei",
+		"dates": "1564-1642",
+		"field": "Astronomy",
+		"bio": "Galileo Galilei (15 February 1564 – 8 January 1642) was an Italian astronomer, physicist and engineer, sometimes described as a polymath. Galileo has been called the \"father of observational astronomy\", the \"father of modern physics\", the \"father of the scientific method\", and the \"father of modern science\".",
+		"country": "italy",
+		"source": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+	},
+	"lovelace": {
+		"name": "Ada Lovelace",
+		"dates": "1815-1852",
+		"field": "Mathematics",
+		"bio": "Augusta Ada King, Countess of Lovelace (née Byron; 10 December 1815 – 27 November 1852) was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine.",
+		"country": "uk",
+		"source": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+	},
+	"newton": {
+		"name": "Isaac Newton",
+		"dates": "1643-1727",
+		"field": "Mathematics",
+		"bio": "Sir Isaac Newton FRS PRS (25 December 1642 – 20 March 1726/27) was an English mathematician, physicist, astronomer, theologian, and author (described in his own day as a \"natural philosopher\") who is widely recognised as one of the most influential scientists of all time, and a key figure in the scientific revolution.",
+		"country": "uk",
+		"source": "https://en.wikipedia.org/wiki/Isaac_Newton"
+	},
+	"pasteur": {
+		"name": "Louis Pasteur",
+		"dates": "1822-1895",
+		"field": "Chemistry",
+		"bio": "Louis Pasteur (December 27, 1822 – September 28, 1895) was a French biologist, microbiologist and chemist renowned for his discoveries of the principles of vaccination, microbial fermentation and pasteurization.",
+		"country": "france",
+		"source": "https://en.wikipedia.org/wiki/Louis_Pasteur"
+	},
+	"tesla": {
+		"name": "Nikola Tesla",
+		"dates": "1856-1943",
+		"field": "Engineering",
+		"bio": "Nikola Tesla (10 July 1856 – 7 January 1943) was a Serbian-American inventor, electrical engineer, mechanical engineer, and futurist who is best known for his contributions to the design of the modern alternating current (AC) electricity supply system.",
+		"country": "serbia",
+		"source": "https://en.wikipedia.org/wiki/Nikola_Tesla"
+	}
+}
