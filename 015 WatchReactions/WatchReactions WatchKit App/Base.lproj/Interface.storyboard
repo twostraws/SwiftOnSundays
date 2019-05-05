@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14490.70" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14490.21"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WatchReactions_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="0.5" alignment="left" id="gkW-PD-AWN">
+                            <items>
+                                <button width="0.5" height="1" alignment="left" title="1" id="X0X-jc-NeQ">
+                                    <fontDescription key="font" type="system" weight="thin" pointSize="32"/>
+                                    <connections>
+                                        <action selector="playSound1" destination="AgC-eL-Hgc" id="VhZ-nq-hAR"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" height="1" alignment="left" title="2" id="wu3-wV-lgo">
+                                    <fontDescription key="font" type="system" weight="thin" pointSize="32"/>
+                                    <connections>
+                                        <action selector="playSound2" destination="AgC-eL-Hgc" id="OeC-UI-kV6"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" height="0.5" alignment="left" id="iec-GX-goe">
+                            <items>
+                                <button width="0.5" height="1" alignment="left" title="3" id="gnK-Uh-m6Q">
+                                    <fontDescription key="font" type="system" weight="thin" pointSize="32"/>
+                                    <connections>
+                                        <action selector="playSound3" destination="AgC-eL-Hgc" id="VJV-nG-yBO"/>
+                                    </connections>
+                                </button>
+                                <button width="0.5" height="1" alignment="left" title="4" id="Vix-gh-Dee">
+                                    <fontDescription key="font" type="system" weight="thin" pointSize="32"/>
+                                    <connections>
+                                        <action selector="playSound4" destination="AgC-eL-Hgc" id="L4g-sV-oPN"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <segue destination="tZB-mS-Fds" kind="relationship" relationship="nextPage" id="Kly-ET-wnr"/>
+                    </connections>
+                </controller>
+            </objects>
+        </scene>
+        <!--Table Interface Controller-->
+        <scene sceneID="ryR-A9-jNa">
+            <objects>
+                <controller id="tZB-mS-Fds" customClass="TableInterfaceController" customModule="WatchReactions_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="2rv-2i-jet">
+                            <items>
+                                <tableRow identifier="Row" id="m6B-KM-Nug" customClass="SoundRow" customModule="WatchReactions_WatchKit_App" customModuleProvider="target">
+                                    <group key="rootItem" width="1" alignment="left" id="lLJ-XD-Jz3">
+                                        <items>
+                                            <label alignment="left" verticalAlignment="center" text="Label" id="2UU-Xj-zmz"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="textLabel" destination="2UU-Xj-zmz" id="oDn-0o-zaA"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="table" destination="2rv-2i-jet" id="OvB-AH-PsV"/>
+                        <segue destination="N3u-Pw-3LB" kind="relationship" relationship="nextPage" id="5BB-fF-PpM"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="335" y="292"/>
+        </scene>
+        <!--Custom Interface Controller-->
+        <scene sceneID="WJE-fF-esW">
+            <objects>
+                <controller id="N3u-Pw-3LB" customClass="CustomInterfaceController" customModule="WatchReactions_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="1" height="0.5" alignment="left" title="Record" id="58W-XR-ttP">
+                            <color key="backgroundColor" red="0.31989609769999999" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <action selector="recordTapped" destination="N3u-Pw-3LB" id="gRo-gi-iw7"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="0.5" alignment="left" title="Play" id="RQy-ko-78S">
+                            <color key="backgroundColor" red="0.043711618530000003" green="0.31989609769999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <action selector="playTapped" destination="N3u-Pw-3LB" id="WnT-U9-jab"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="610" y="292"/>
+        </scene>
+    </scenes>
+</document>
