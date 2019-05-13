@@ -1,0 +1,16 @@
+PODS:
+  - Sourceful (0.2.0)
+
+DEPENDENCIES:
+  - Sourceful
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Sourceful
+
+SPEC CHECKSUMS:
+  Sourceful: f514447f2ee886f238face3ce8e8b5648c0dc365
+
+PODFILE CHECKSUM: 36ac0cc0b1cbf4e3e1b259dc259faa5e409319f8
+
+COCOAPODS: 1.6.1
