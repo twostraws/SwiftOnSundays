@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14903" systemVersion="19A558d" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Joke" representedClassName="Joke" syncable="YES">
+        <attribute name="punchline" optional="YES" attributeType="String"/>
+        <attribute name="rating" optional="YES" attributeType="String"/>
+        <attribute name="setup" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Joke" positionX="-63" positionY="-18" width="128" height="88"/>
+    </elements>
+</model>
