@@ -78,12 +78,8 @@ class EditCommandViewController: UITableViewController {
         cell.textLabel?.text = command.title
         cell.toggle.isOn = command.value
 
-        cell.switchChangedAction = { [weak self] value in
-            guard let checkCommand = self?.activeCommand.options[indexPath.section] as? CheckCommand else {
-                return
-            }
-
-            checkCommand.value = value
+        cell.switchChangedAction = { [weak command] value in
+            command?.value = value
         }
 
         return cell
@@ -94,12 +90,8 @@ class EditCommandViewController: UITableViewController {
             fatalError("Unable to dequeue TextTableViewCell.")
         }
 
-        cell.textChangedAction = { [weak self] newText in
-            guard let textCommand = self?.activeCommand.options[indexPath.section] as? TextCommand else {
-                return
-            }
-
-            textCommand.value = newText
+        cell.textChangedAction = { [weak command] newText in
+            command?.value = newText
         }
 
         if command.placeholder.isEmpty {

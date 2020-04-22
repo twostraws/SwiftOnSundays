@@ -12,8 +12,8 @@ import SpriteKit
 class Ball: SKSpriteNode { }
 
 class GameScene: SKScene {
-    var balls = ["ballBlue", "ballGreen", "ballPurple", "ballRed", "ballYellow"]
-    var motionManager: CMMotionManager?
+    let balls = ["ballBlue", "ballGreen", "ballPurple", "ballRed", "ballYellow"]
+    let motionManager = CMMotionManager()
 
     let scoreLabel = SKLabelNode(fontNamed: "HelveticaNeue-Thin")
     var matchedBalls = Set<Ball>()
@@ -74,12 +74,12 @@ class GameScene: SKScene {
 
         physicsBody = SKPhysicsBody(edgeLoopFrom: frame.inset(by: UIEdgeInsets(top: 100, left: 0, bottom: 0, right: 0)))
 
-        motionManager = CMMotionManager()
-        motionManager?.startAccelerometerUpdates()
+    //    motionManager = CMMotionManager()
+        motionManager.startAccelerometerUpdates()
     }
     
     override func update(_ currentTime: TimeInterval) {
-        if let accelerometerData = motionManager?.accelerometerData {
+        if let accelerometerData = motionManager.accelerometerData {
             physicsWorld.gravity = CGVector(dx: accelerometerData.acceleration.y * -50, dy: accelerometerData.acceleration.x * 50)
         }
 
