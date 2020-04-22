@@ -1,0 +1,86 @@
+[
+	{
+		"a": "England",
+		"b": "London"
+	},
+	{
+		"a": "Scotland",
+		"b": "Edinburgh"
+	},
+	{
+		"a": "Ireland",
+		"b": "Dublin"
+	},
+	{
+		"a": "Wales",
+		"b": "Cardiff"
+	},
+	{
+		"a": "France",
+		"b": "Paris"
+	},
+	{
+		"a": "Germany",
+		"b": "Berlin"
+	},
+	{
+		"a": "Italy",
+		"b": "Rome"
+	},
+	{
+		"a": "Spain",
+		"b": "Madrid"
+	},
+	{
+		"a": "Norway",
+		"b": "Oslo"
+	},
+	{
+		"a": "Finland",
+		"b": "Helsinki"
+	},
+	{
+		"a": "Austria",
+		"b": "Vienna"
+	},
+	{
+		"a": "Hungary",
+		"b": "Budapest"
+	},
+	{
+		"a": "Japan",
+		"b": "Tokyo"
+	},
+	{
+		"a": "Russia",
+		"b": "Moscow"
+	},
+	{
+		"a": "China",
+		"b": "Beijing"
+	},
+	{
+		"a": "Australia",
+		"b": "Canberra"
+	},
+	{
+		"a": "Brazil",
+		"b": "Brasilia"
+	},
+	{
+		"a": "Canada",
+		"b": "Ottawa"
+	},
+	{
+		"a": "Egypt",
+		"b": "Cairo"
+	},
+	{
+		"a": "Belgium",
+		"b": "Brussels"
+	},
+	{
+		"a": "India",
+		"b": "New Delhi"
+	}
+]
